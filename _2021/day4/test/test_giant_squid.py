@@ -1,5 +1,5 @@
 import unittest
-from day4.giant_squid import GiantSquid
+from _2021.day4.giant_squid import GiantSquid
 
 class TestGiantSquid(unittest.TestCase):
 

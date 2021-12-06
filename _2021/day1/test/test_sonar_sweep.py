@@ -1,5 +1,5 @@
 import unittest
-from day1.sonar_sweep import sonar_sweep, window_sonar_sweep
+from _2021.day1.sonar_sweep import sonar_sweep, window_sonar_sweep
 
 class SonarSweep(unittest.TestCase):
 

@@ -1,4 +1,4 @@
-from day4.giant_squid import GiantSquid
+from giant_squid import GiantSquid
 
 part1_result = GiantSquid('input.txt').play_game(True)
 part2_result = GiantSquid('input.txt').play_game(False)

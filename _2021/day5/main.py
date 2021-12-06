@@ -1,4 +1,4 @@
-from day5.hydrothermal_venture import HydrothermalVenture
+from hydrothermal_venture import HydrothermalVenture
 
 h = HydrothermalVenture('input.txt')
 part1 = h.get_part1_result()

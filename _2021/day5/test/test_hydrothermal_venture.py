@@ -1,6 +1,5 @@
 import unittest
-from day5.hydrothermal_venture import HydrothermalVenture
-from pprint import pprint
+from _2021.day5.hydrothermal_venture import HydrothermalVenture
 
 
 class TestHydrothermalVenture(unittest.TestCase):
