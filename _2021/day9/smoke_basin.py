@@ -11,10 +11,10 @@ def smoke_basin(input_file):
     for row_idx in range(len(matrix)):
         for col_idx in range(len(matrix[row_idx])):
             if not visited[row_idx][col_idx]:
-                _evaluate_element(matrix, visited, row_idx, col_idx, result)
+                _part1_dfs(matrix, visited, row_idx, col_idx, result)
     return result, matrix
 
-def _evaluate_element(matrix, visited, row_idx, col_idx, result):
+def _part1_dfs(matrix, visited, row_idx, col_idx, result):
     if not visited[row_idx][col_idx]:
         visited[row_idx][col_idx] = True
         cur_row, cur_col = None, None
@@ -24,7 +24,7 @@ def _evaluate_element(matrix, visited, row_idx, col_idx, result):
             cur_col = col_idx + inc_col
             if 0 <= cur_row < len(matrix) and 0 <= cur_col < len(matrix[0]):
                 if matrix[cur_row][cur_col] < matrix[row_idx][col_idx]:
-                    _evaluate_element(matrix, visited, cur_row, cur_col, result)
+                    _part1_dfs(matrix, visited, cur_row, cur_col, result)
                     smallest = False
                 elif matrix[cur_row][cur_col] == matrix[row_idx][col_idx]:
                     smallest = False
