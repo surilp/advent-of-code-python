@@ -1,5 +1,5 @@
 import unittest
-from _2021.day8.seven_segment_search import SevenSegmentSearch
+from _2021.day08.seven_segment_search import SevenSegmentSearch
 
 class TestSevenSegmentSearch(unittest.TestCase):
 

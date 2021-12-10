@@ -1,4 +1,4 @@
-from _2021.day6.lanternfish import Lanternfish
+from _2021.day06.lanternfish import Lanternfish
 import unittest
 
 class TestLanternfish(unittest.TestCase):

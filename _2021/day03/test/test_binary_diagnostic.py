@@ -1,5 +1,5 @@
 import unittest
-from _2021.day3.binary_diagnostic import binary_diagnostic, binary_diagnostic2
+from _2021.day03.binary_diagnostic import binary_diagnostic, binary_diagnostic2
 
 class TestBinaryDiagnostic(unittest.TestCase):
 

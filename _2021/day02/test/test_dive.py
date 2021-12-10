@@ -1,5 +1,5 @@
 import unittest
-from _2021.day2.dive import dive, dive2
+from _2021.day02.dive import dive, dive2
 
 class TestDive(unittest.TestCase):
 

@@ -1,5 +1,5 @@
 import unittest
-from _2021.day7.treachery_of_whales import treachery_of_whales
+from _2021.day07.treachery_of_whales import treachery_of_whales
 
 class TestTreachery(unittest.TestCase):
 

@@ -1,4 +1,4 @@
-from _2021.day9.smoke_basin import part1_result, part2_result
+from _2021.day09.smoke_basin import part1_result, part2_result
 import unittest
 
 class TestSmokeBasin(unittest.TestCase):
