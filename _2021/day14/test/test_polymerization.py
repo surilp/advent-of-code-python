@@ -1,5 +1,5 @@
 from unittest import TestCase
-from _2021.day14.polymerization import Polymerization
+from _2021.day14.polymerization import Polymerization, part2
 
 class TestPolymerization(TestCase):
 
@@ -8,5 +8,4 @@ class TestPolymerization(TestCase):
         self.assertEqual(p.final_result(), 1588)
 
     def test2(self):
-        p = Polymerization('test_input.txt')
-        self.assertEqual(p.final_result(40), 1588)
+        self.assertEqual(part2('test_input.txt', 10), 1588)
