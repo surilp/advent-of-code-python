@@ -7,3 +7,4 @@ def file_to_collection(input_file):
             item = file.readline()
         return result
 
+
